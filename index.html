@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo</title>
-    <!--  SCROLL SMOTH HTML SCRIPT  -->
+    <title>Andel - Sergio Fernández</title>
+    <link rel="icon" href="img/favicon.jpg">
+    <!--  SCROLL SMOTH HTML SCRIPT | JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
@@ -43,7 +44,7 @@
     /* TEXTO */
     h1 {
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 20px;
         background-color: black;
         color: #fff;
@@ -93,20 +94,20 @@
     </style>
     <!--  BODY  -->
     <div class="title" id="inicio">
-    <img src="img/andel-logo.png" alt="" style="margin-top: 13px;"></img><br><br><hr>
+    <img src="img/andel-logo.png" alt="Para mas información, pulsa aquí" style="margin-top: 13px;"></img><br><br><hr>
     </div>
     <!-- NAVEGADOR -->
     <div class="nav">
-        <a href="#inicio">Inicio</a>
-        <a href="#">Imagenes</a>
+        <a href="https://andel.es/" target="_blank">Página Andel</a>
+        <a href="#imagenes">Imagenes</a>
         <a href="#profesores">Profesores</a>
-        <a href="#">Listado de clases</a>
+        <a href="#clases">Listado de clases</a>
     </div>
     <br>
     <!--  PARRAFO 1  -->
     <div class="parrafo-1">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi, enim modi voluptas animi dolorem tempora cupiditate. Voluptas sequi repudiandae quae dolor architecto accusantium. Quaerat maxime, est id accusamus qui consectetur quasi ab voluptas eum accusantium vero hic laudantium, harum natus unde distinctio, quibusdam ullam? Consequuntur laborum obcaecati officia rem quo temporibus odio natus et reprehenderit molestias quia id alias error perferendis nam sunt, ducimus ad eveniet ipsam mollitia, nihil quidem illo debitis deserunt! Error repudiandae repellendus perspiciatis sint maxime in, asperiores commodi ratione dignissimos itaque rerum rem fugit quisquam harum quasi assumenda voluptate placeat libero labore iure ullam. At.
-        <table>
+        <table id="imagenes">
             <tbody>
             <tr> <td>
             <img src="img/andel.jpg" alt="" style="width: 98%; margin: 10px;">
@@ -121,6 +122,31 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos error blanditiis, sed rem dolor praesentium, tempore modi recusandae quisquam iure tenetur ab magni vitae alias assumenda et facilis dolore doloremque inventore vel dolorem laborum architecto. Accusamus eaque id ab saepe ea iure non modi animi eum. Cupiditate neque vel magni! Fugit corporis rerum inventore nisi debitis, ab consectetur unde excepturi quod iusto. Placeat eaque laborum exercitationem, repudiandae quam explicabo doloribus facere!
         <br><br> Minus dolore in <i>officia nostrum vel sit maxime quidem</i> <b>nihil cumque odio.</b> Commodi accusamus autem possimus quas quia nihil perferendis culpa, aut amet, accusantium eaque obcaecati rerum aperiam architecto suscipit doloribus ipsum asperiores voluptatum adipisci error maxime qui! Corrupti ullam corporis doloremque numquam fugit dicta tempora.
         <br><br>Illum porro id velit iure repellat modi, sint autem dignissimos maiores quam. At dolor cum aliquam ex fugit sunt repellat fugiat nam voluptatibus! Repellat, quae non sed laborum maxime ea eveniet commodi quasi, iusto sint corporis facilis sapiente obcaecati? Autem neque accusamus nemo natus exercitationem possimus sit quos enim ullam, amet dicta ipsa molestias iste sunt ab, consequatur in rem. Porro nostrum dolorum eos enim amet sed? Vero rerum assumenda optio eos, nesciunt aut accusantium possimus quis quidem, facilis eum ab aliquid?</p>
+    </div>
+    <div class="clases">
+        <!--  STYLE OF CLASS  -->
+        <style type="text/css">
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            background: black;
+            height: 50px;
+            width: 500px;
+        }
+        .clases > img {
+            display: block;
+            margin: auto;
+            margin-top: 15px;
+            transition: width ease-in .5s;
+            transition-delay: 0.4s;
+            width: 800px;
+        }
+        .clases img:hover {
+            width: 1000px;
+        }
+        </style>
+        <h1 id="clases">Listado de clases</h1>
+        <img src="img/listas.PNG" alt="">
     </div>
     <div class="footer">
         <h1> Página realizada por Sergio Fernández</h1>
